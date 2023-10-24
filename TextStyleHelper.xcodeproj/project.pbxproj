@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		C29F82022A4260D7007304DD /* TextStyleHelperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29F82012A4260D7007304DD /* TextStyleHelperApp.swift */; };
-		C29F82042A4260D7007304DD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29F82032A4260D7007304DD /* ContentView.swift */; };
 		C29F82062A4260D8007304DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C29F82052A4260D8007304DD /* Assets.xcassets */; };
 		C29F82092A4260D8007304DD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C29F82082A4260D8007304DD /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,10 +15,10 @@
 /* Begin PBXFileReference section */
 		C29F81FE2A4260D7007304DD /* TextStyleHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextStyleHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C29F82012A4260D7007304DD /* TextStyleHelperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextStyleHelperApp.swift; sourceTree = "<group>"; };
-		C29F82032A4260D7007304DD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C29F82052A4260D8007304DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C29F82082A4260D8007304DD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C29F820A2A4260D8007304DD /* TextStyleHelper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TextStyleHelper.entitlements; sourceTree = "<group>"; };
+		C29F82102A42615E007304DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +51,8 @@
 		C29F82002A4260D7007304DD /* TextStyleHelper */ = {
 			isa = PBXGroup;
 			children = (
+				C29F82102A42615E007304DD /* Info.plist */,
 				C29F82012A4260D7007304DD /* TextStyleHelperApp.swift */,
-				C29F82032A4260D7007304DD /* ContentView.swift */,
 				C29F82052A4260D8007304DD /* Assets.xcassets */,
 				C29F820A2A4260D8007304DD /* TextStyleHelper.entitlements */,
 				C29F82072A4260D8007304DD /* Preview Content */,
@@ -139,7 +138,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C29F82042A4260D7007304DD /* ContentView.swift in Sources */,
 				C29F82022A4260D7007304DD /* TextStyleHelperApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,6 +272,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TextStyleHelper/Info.plist;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -301,6 +301,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TextStyleHelper/Info.plist;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
